@@ -162,6 +162,15 @@ body {
 .reveal .slides section .fragment.highlight-current-blue.current-fragment {
   color: #1b91ff; }
 
+.reveal .slides section .highlight-red {
+color: #FF6666; }
+
+.reveal .slides section .highlight-green {
+color: #66ff66; }
+
+.reveal .slides section .highlight-blue {
+color: #3399ff; }
+
 /*********************************************
  * DEFAULT ELEMENT STYLES
  *********************************************/
@@ -1385,3 +1394,12 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+.slides .header{
+  position:fixed;
+  top: 0;
+}
+.slides .footer{
+  position:fixed;
+  bottom: 0;
+}
